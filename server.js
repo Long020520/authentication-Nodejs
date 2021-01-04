@@ -19,7 +19,7 @@ app.use("/user", require("./routers/userRouter"))
 app.use("/api", require("./routers/uploadRouter"))
 
 app.get("/",(req, res)  => {
-    res.send("Hello heroku")
+    res.send("automation deploy heroku")
 } )
 
 const URI = process.env.MONGODB_URL
